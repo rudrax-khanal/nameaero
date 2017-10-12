@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Quicksand');
+/*--- End Import Google Fonts --*/
+
+body{
+	border-top:4px solid #cecfce;
+}
+.header, .footer{
+	font-family: 'Quicksand', sans-serif;
+	max-width: 1000px;
+	margin:0 auto;
+}
+header{
+	height:70px;
+	border-bottom:2px solid #d3d3d3;
+}
+.clear{
+	clear: both;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+.blue{
+	color:#63C4DB;
+}
+/* text sizes */
+.huge-text { 
+	font-size: 2em; 
+}
+.extralarge-text { 
+	font-size: 1.5em;
+}
+.large-text { 
+	font-size: 1.17em; 
+}
+.big-text { 
+	font-size: 1.12em; 
+}
+.small-text { 
+	font-size: .83em; 
+}
+.extrasmall-text { 
+	font-size: .75em; 
+}
+/*--- Start Elements Styling --*/
+
+/*--- Header Styling --*/
+
+header .header-inner-2, .header-inner-3{
+	margin:30px 0px 0px 0px;
+}
+header .header-inner{
+	float:left;
+	border-right:1px solid #cecfce;
+	height:70px;
+}
+header .header-inner .logo{
+	height:auto;
+	width:180px;
+	margin:20px;
+}
+header .header-inner-2{
+	float:left;
+	margin-left: 5px;
+}
+header .header-inner-2 nav ul{
+	list-style-type: none;
+	color:#cecfce;
+}
+header .header-inner-2 nav ul li{
+	display: inline;
+}
+header .header-inner-2 nav ul li a{
+	text-decoration: none;
+}
+header .header-inner-3{
+	float:right;
+}
+header .header-inner-3 a{
+	text-decoration: none;
+}
+
+
+/*--- End Header Styling --*/
+
+/*--- Start Container Styling --*/
+
+.container{
+	clear: both;
+	max-width: 850px;
+	margin:0 auto;
+	margin-top:70px;
+	margin-bottom: 70px;
+}
+.container .main-body{
+	text-align: center;
+}
+.container .main-body .search-heading{
+	font-size: 25px;
+	font-weight: bold;
+	color:#0aaad0;
+}
+.container .pricing-list{
+	margin:0 auto;
+}
+.manage-domain{
+	float:right;
+}
+.dom-container{
+  margin:0 auto;
+}
+.clientarea-nav {
+    background-color: #005aa1;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom:50px;
+}
+.clientarea-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.clientarea-nav a:hover {
+    background-color: #6ec4db;
+    color: black;
+}
+.clientarea-nav .active {
+    background-color: #1488e4;
+    color: white;
+}
+
+/*--- search domains --*/
+.domain-name-box{
+	border-top:1px solid #E1E1E1;
+	border-bottom:1px solid #E1E1E1;
+	padding: 25px;
+	font-size: 20px;
+}
+.add-cart{
+	float: right;
+}
+.domain-list-ca{
+	width: 100%;
+}
+/*--- Container Search Bar --*/
+
+.search-box{
+	position: relative;
+	width:100%;
+}
+.search-domain-bar{
+  float: left;
+  width: 100%;
+  border: 3px solid #cecfce;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  color: #9DBFAF;
+  font-size:20px;
+}
+.search-domain-button{
+  position: absolute;  
+  width: 90px;
+  height: 90px;
+  border: 5px solid #cecfce;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 45px;
+  cursor: pointer;
+  font-size: 25px;
+  top: -25px;
+  right: -50px;
+}
+
+/*--- Container Extras --*/
+/*.dom-logo{
+	width:auto;
+	height: 50px;
+}*/
+.hidden{
+	visibility: hidden;
+}
+.cross-domain-price{
+	text-decoration: line-through;
+}
+.dom-app{
+	padding: 8px;
+	border:1px solid white;
+	text-overflow: ellipsis;
+}
+.dom-app a{
+	color:black;
+	text-decoration: none;
+	display: block;
+}
+.dom-app a:hover{
+	color:black;
+	text-decoration: none;
+}
+.dom-app:hover{
+	border:1px solid #d3d3d3;
+	border-radius: 3px;
+}
+.dom-app img{
+	display: block;
+    margin: 0 auto;
+}
+.article-head a{
+text-decoration: none;
+}
+.article-body img{
+	width:100%;
+	height:auto;
+}
+.blog-post{
+	border: 1px solid #e8edf2;
+	margin-top:25px;
+}
+.blog-post a{
+	text-decoration: none;
+	color:black;
+}
+.blog-post b,p{
+	padding:15px 10px 15px 10px;
+}
+.blog-post img{
+	width: 100%;
+	height:200px;
+}
+.blog-post figure {
+	width: 100%;
+	height:200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.blog-post img {
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.blog-post figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+.pagination{
+	text-align: center;
+}
+.pagination a{
+	display: inline-block;
+  	height: 38px;
+  	padding: 0 30px;
+  	color: #555;
+  	text-align: center;
+  	font-size: 11px;
+  	font-weight: 600;
+  	line-height: 38px;
+  	letter-spacing: .1rem;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	white-space: nowrap;
+  	background-color: transparent;
+  	border-radius: 4px;
+  	border: 1px solid #bbb;
+  	cursor: pointer;
+  	box-sizing: border-box;
+  	margin-top: 25px;
+}
+.pagination a:hover, a:focus{
+	color: #333;
+  	border-color: #888;
+  	outline: 0;
+}
+.pagination .active{
+	color: #FFF;
+  	background-color: #33C3F0;
+  	border-color: #33C3F0;
+}
+.pagination .active:hover{
+	color: #FFF;
+  	background-color: #1EAEDB;
+  	border-color: #1EAEDB;
+}
+/*--- End Container Styling --*/
+
+/*--- Start footer Styling --*/
+
+footer{
+	background:#4e4e4e;
+	height:300px;
+	padding-top: 15px;
+	color:#C0C0C0;
+}
+footer .footer-inner .footer-text{
+	font-size: 13px;
+
+}
+footer .footer-inner .footer-text-2{	
+	margin-top:17px;
+}
+footer .footer-inner .footer-heading{	
+	text-transform: uppercase;
+	color:#A9A9A9;
+}
+
+/*--- Footer Search Bar --*/
+
+.footer-search-container{
+	width:200px;
+	position:relative;
+}
+.search-bar{
+	float:left;
+	height:20px;
+	width:100%;
+	background:#2b303b;
+	border:none;
+	padding:5px;
+	height:26px;
+	outline:none;
+}
+.search-bar:focus{
+	color: #A9A9A9;
+  	background:#454a53;
+}
+.search-button{
+	position: absolute;
+	width:15px;
+	color:#fff;
+	text-align: center;
+	right:-70px;
+	background:#2b303b;
+	border:none;
+	border-radius: 0px;
+	height:36px;
+ 	cursor: pointer;
+ 	font-size: 13px;
+ }
+.search-button:hover,.search-button:focus{
+    color: #A9A9A9;
+  	background:#454a53;
+}
+.main-body{
+  width: 70%;
+  margin:0 auto;
+}
+
+/*--- End Footer Styling --*/
+/*--- End Styling --*/
+
+/*--- Mobile Friendly :) --*/
+@media screen and (max-width: 350px) {
+body{
+		width: 350px;
+	}
+.inner-body{
+  margin:0px 50px 0px 50px;
+}
+footer{
+  background:#4e4e4e;
+  height:695px;
+}
+footer .footer-inner{
+  margin:0px 50px 0px 50px;
+}
+.domain-name-box{
+	margin-bottom:45px;
+}
+.domain-list-ca{
+	margin:0;
+	width: 100%;
+}
+.inner-body-domain{
+	margin:0px auto;
+}
+header .header-inner-3{
+	float:left;
+	margin-top: 0px;
+}
+.search-domain-bar{
+  font-size:15px;
+}
+.main-body{
+	width: 100%;
+	margin:0px;
+}
+.clientarea-nav {
+    background-color: #005aa1;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom:50px;
+}
+.clientarea-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.clientarea-nav a:hover {
+    background-color: #6ec4db;
+    color: black;
+}
+.clientarea-nav .active {
+    background-color: #1488e4;
+    color: white;
+}
+.article-body{
+	margin:0px;
+}
+}
+@media screen and (min-width: 351px) and (max-width: 550px) {
+	.inner-body{
+  margin:0px 50px 0px 50px;
+}
+footer{
+  background:#4e4e4e;
+  height:695px;
+}
+footer .footer-inner{
+  margin:0px 50px 0px 50px;
+}
+.domain-name-box{
+	margin-bottom:45px;
+}
+.domain-list-ca{
+	margin:0;
+	width: 100%;
+}
+.inner-body-domain{
+	margin:0px auto;
+}
+.search-domain-bar{
+  font-size:15px;
+}
+.main-body{
+	width: 100%;
+	margin:0px;
+}
+.clientarea-nav {
+    background-color: #005aa1;
+    overflow: hidden;
+    text-align: left;
+    margin-bottom:50px;
+}
+.clientarea-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 10px;
+}
+.clientarea-nav a:hover {
+    background-color: #6ec4db;
+    color: black;
+}
+.clientarea-nav .active {
+    background-color: #1488e4;
+    color: white;
+}
+.article-body{
+	margin:0px auto;
+}
+}
+@media screen and (min-width: 551px) and (max-width: 720px) {
+	.inner-body{
+  margin:0px 50px 0px 50px;
+}
+/*.dom-logo{
+	width:auto;
+	height: 35px;
+}*/
+footer{
+  background:#4e4e4e;
+  height:300px;
+}
+footer .footer-inner{
+  margin:0px 50px 0px 50px;
+}
+.domain-name-box{
+	padding-bottom:35px;
+}
+.inner-body-domain{
+	margin:0px auto;
+}
+}
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+
+.inner-body{
+  margin:0px 50px 0px 50px;
+}
+footer{
+  background:#4e4e4e;
+  height:300px;
+}
+footer .footer-inner{
+  margin:0px 50px 0px 50px;
+}
+.domain-name-box{
+	padding-bottom:35px;
+}
+}
